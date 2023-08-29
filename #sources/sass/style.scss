@@ -68,6 +68,12 @@ img {
 	height: 100%;
 }
 
+i {
+	font-style: normal;
+	color: #ff5317;
+}
+
+
 // Site
 
 
@@ -298,6 +304,15 @@ body {
 		margin: 19px 20px 13px 20px;
 	}
 	&__ending {
+		max-width: 500px;
+
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		width: 100vw;
+		height: 100vh;
 	}
 	&__footer {
 	}
@@ -326,4 +341,25 @@ body {
 
 
 
+.perehod {
+	
 
+
+	background-color: #000;
+
+	color: #fff;
+
+
+	i {
+		color: #bb19b1;
+	}
+}
+
+
+
+.ex {
+
+	width: 250px;
+	// margin: 0 auto -23px auto;
+	display: block;
+}

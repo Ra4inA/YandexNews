@@ -100,6 +100,11 @@ img {
   height: 100%;
 }
 
+i {
+  font-style: normal;
+  color: #ff5317;
+}
+
 body {
   color: #000;
 }
@@ -248,6 +253,21 @@ body {
   font-weight: 700;
   margin: 19px 20px 13px 20px;
 }
+.article__ending {
+  max-width: 500px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
 .stats__date {
   position: relative;
 }
@@ -255,4 +275,16 @@ body {
   content: "·";
   width: 5px;
   padding: 0 4px;
+}
+.perehod {
+  background-color: #000;
+  color: #fff;
+}
+.perehod i {
+  color: #bb19b1;
+}
+
+.ex {
+  width: 250px;
+  display: block;
 }
